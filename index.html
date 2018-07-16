@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body class="text-center">
+        <div class="site-wrapper">
+            <div class="site-wrapper-inner">
+                <div class="cover-container">
+    
+                  <!-- Header section -->
+                  <header class="masthead mb-auto masthead clearfix">
+                      <div class="inner">
+                        <h3 class="masthead-brand">Flick Seek</h3>
+                        <nav class="nav nav-masthead justify-content-center">
+                            <ul class="nav masthead-nav">
+                                <li class="active"><a href="/home.html" title="Home">Home</a></li>
+                                <li><a href="/list/movies.html" title="Movies">Movies</a></li>
+                                <li><a href="/list/tv-series.html" title="TV-Series">TV-Series</a></li>
+                                <li><a href="/list/featured-movies.html" title="Featured">Featured</a></li>
+                            </ul>
+                        </nav>
+                      </div>
+                    </header>
+                  <!-- Header section end -->
+    
+                    <!-- Inner section  -->
+                    <section class="inner cover">
+                          <form class="search_promo" method="post" onsubmit="return searchMovie('keywords')">
+                            <div class="input-group">
+                              <input type="text" class="form-control" name="keywords" required placeholder="Enter movies name ...">
+                              <span class="input-group-addon btn_promo_search">
+                                <button type="submit" class="btn btn-success">Search</button>
+                              </span>
+                            </div>
+                          </form>
+                      </section>
+                      <!-- Inner section end-->
+    
+                    <!-- Footer for home -->
+                    <footer class="mastfoot">
+                        <div class="inner">
+                            <p>Copyright © <a href="//www.flickseek.com">www.flickseek.com</a> All Rights Reserved.</p>
+                        </div>
+                    </footer>
+                    <!-- Footer for home end-->
+    
+                  </div>
+                </div>
+              </div>
+
+
+    <script src="dist/index.bundle.js"></script>
+</body>
+</html>
