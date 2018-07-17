@@ -1,8 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
-@import '../img/movieCollage1.jpg';
+// @import '../img/movieCollage1.jpg';
 html,  body  {
     height:  100%;
-    background:  #333 url(./movieCollage1.jpg) no-repeat;
+    background:  #333 ; //url(./movieCollage1.jpg) no-repeat
     background-size:  cover;
 }
 
