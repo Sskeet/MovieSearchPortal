@@ -5,7 +5,7 @@ module.exports = {
     filename: 'index.bundle.js'
   },
   devtool: "cheap-eval-source-map",
-
+  watch: true,
   module: {
     rules: [
       { 

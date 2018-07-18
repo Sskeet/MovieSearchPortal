@@ -1,9 +1,13 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+"results": 
+    [
+      { 
+        "id": 10195,
+        "poster_path": "/bIuOWTtyFPjsFDevqvF3QrD1aun.jpg"
+      },
+      {
+        "id": 284053,
+        "poster_path": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg"
+      }
+    ]
+}

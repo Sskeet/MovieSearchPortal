@@ -4,53 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Flick Seek</title>
 </head>
-<body class="text-center">
-        <div class="site-wrapper">
-            <div class="site-wrapper-inner">
-                <div class="cover-container">
-    
-                  <!-- Header section -->
-                  <header class="masthead mb-auto masthead clearfix">
-                      <div class="inner">
-                        <h3 class="masthead-brand">Flick Seek</h3>
-                        <nav class="nav nav-masthead justify-content-center">
-                            <ul class="nav masthead-nav">
-                                <li class="active"><a href="/home.html" title="Home">Home</a></li>
-                                <li><a href="/list/movies.html" title="Movies">Movies</a></li>
-                                <li><a href="/list/tv-series.html" title="TV-Series">TV-Series</a></li>
-                                <li><a href="/list/featured-movies.html" title="Featured">Featured</a></li>
-                            </ul>
-                        </nav>
-                      </div>
-                    </header>
-                  <!-- Header section end -->
-    
-                    <!-- Inner section  -->
-                    <section class="inner cover">
-                          <form class="search_promo" method="post" onsubmit="return searchMovie('keywords')">
-                            <div class="input-group">
-                              <input type="text" class="form-control" name="keywords" required placeholder="Enter movies name ...">
-                              <span class="input-group-addon btn_promo_search">
-                                <button type="submit" class="btn btn-success">Search</button>
-                              </span>
-                            </div>
-                          </form>
-                      </section>
-                      <!-- Inner section end-->
-    
-                    <!-- Footer for home -->
-                    <footer class="mastfoot">
-                        <div class="inner">
-                            <p>Copyright © <a href="//www.flickseek.com">www.flickseek.com</a> All Rights Reserved.</p>
-                        </div>
-                    </footer>
-                    <!-- Footer for home end-->
-    
-                  </div>
-                </div>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Flick Seek</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TV</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Movies
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Popular</a>
+                <a class="dropdown-item" href="#">Action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Featured</a>
               </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" id="searchText" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="searchMovies">Search</button>
+          </form>
+        </div>
+      </nav>
+  </header>
+
+  <section class="container" id="container1">
+      <div class="col-sm-12">
+          <div id="searchSection" class="row m-1">
+  
+          </div>
+        </div>
+  </section>
+
+  <section class="container" id="container2">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Popular Movies</h3>
+        <div id="topMoviesContainer" class="row m-1">
+
+        </div>
+        <button id="loadMovie" type="button" class="w-25 p-1 btn btn-primary" pageNumber="1">Load More Movies...</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="container3">
+    <div class="row">
+        <div class="col-sm-12">
+          <h3>Favourate Movies</h3>
+          <div id="favMovies" class="row m-1">
+            
+          </div>
+        </div>
+      </div>
+  </section>
+
+                      
+  <!-- Footer for home -->
+  <!-- <footer class="mastfoot">
+      <div class="inner">
+          <p>Copyright © <a href="//www.flickseek.com">www.flickseek.com</a> All Rights Reserved.</p>
+      </div>
+  </footer> -->
+  <!-- Footer for home end-->
+    
 
 
     <script src="dist/index.bundle.js"></script>
