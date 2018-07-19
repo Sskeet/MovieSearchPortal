@@ -50,7 +50,7 @@ function createMovieSearchPanel(resp){
         <button type="button" class="collectionButton btn btn-success" movieId="${searchRecd.id}">Add to Favs</button>
       </div>
   ` });
-  jQuery("#" + "searchSection").append(`<h3>The Search List</h3>`+showMovieSearchPanelHtml);
+  jQuery("#" + "searchSection").append(showMovieSearchPanelHtml);
 }
 
 jQuery(document).ready(function(){
@@ -78,53 +78,46 @@ function createMovieList(res){
 
 
 //CRUD operations using basic ajax and jquery 
-function ajaxAddToFav(resfav){
-    jQuery.ajax({
-      type: "GET",
-      data: "json" ,
-      contentType : "application/json",
-      url: 'http://localhost:3000/results',
-      success: function(resfav){
-          callback(resfav);
-      },
-  });
-}
+// function ajaxAddToFav(resfav){
+//     jQuery.ajax({
+//       type: "GET",
+//       data: "json" ,
+//       contentType : "application/json",
+//       url: 'http://localhost:3000/results',
+//       success: function(resfav){
+//           callback(resfav);
+//       },
+//   });
+// }
 
 
-function ajaxDeleteFromFav(){
-    jQuery.ajax({
-      type: "DELETE",
-      data: "json" ,
-      contentType : "application/json",
-      url: 'http://localhost:3000/results',
-      success: function(resfav){
-          callback(resfav);
-      },
-  });
-}
+// function ajaxDeleteFromFav(){
+//     jQuery.ajax({
+//       type: "DELETE",
+//       data: "json" ,
+//       contentType : "application/json",
+//       url: 'http://localhost:3000/results',
+//       success: function(resfav){
+//           callback(resfav);
+//       },
+//   });
+// }
 
 //Adding data to collection 
-function addCollection(resul){
-    var dataCollectionLst = {
-        // vote_count: resul.vote_count,
-        id: resul.id,
-        // vote_average: resul.vote_average,
-        // title: resul.title,
-        poster_path: resul.poster_path,
-        // original_language: resul.original_language,
-        // overview: resul.overview,
-    };
-
+function addCollection(data){
+    console.log("this is data!!!!!", data);
     jQuery.ajax({
       type: "POST",
-      data: "json" ,
+      data: JSON.stringify(data),
       contentType : "application/json",
       url: 'http://localhost:3000/results',
       success: function(resfav){
-        results.append(dataCollectionLst,dataCollectionLst.poster_path)
+        console.log(resfav);
       },
   });
 }
+
+
 //function for selecting the movie and getting the movie details
 // function movieSelected(id){
 //   sessionStorage.setItem('movieId',id);
