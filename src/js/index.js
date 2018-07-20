@@ -22,9 +22,24 @@ function eventListner(){
 
   jQuery(document).on("click",".collectionButton",function(e){
     e.preventDefault();
-    var movieId = jQuery(this).attr("id");
-    getTopMovie(movieId, addCollection);
+    var movieIdVar = jQuery(this).attr("movieId");
+    console.log("movieID"+ movieIdVar);
+    // var movieCount = movieId.length;
+    //   for (var i = 0; i <= movieCount; i++) {
+    //       buttons[i].onclick = function(e) {
+    //           console.log(this.id);
+    //       };
+    //   }
+    // getTopMovie(movieId, addCollection);
+    addCollection(movieIdVar,createCollection);
   })
+
+  jQuery(document).on("click",".insideCollectionButton",function(e){
+    e.preventDefault();
+    var movieIdVar = jQuery(this).attr("movieId");
+    addCollectionToFavs(movieIdVar,createCollection);
+  })
+
 }
 
 function movieSearch(searchText,callback){
@@ -47,7 +62,7 @@ function createMovieSearchPanel(resp){
     showMovieSearchPanelHtml += `
       <div class="col-2 movieContainer" id= ${searchRecd.id}>
         <img src="https://image.tmdb.org/t/p/w300_and_h450_bestv2/${ searchRecd.poster_path}" alt="${searchRecd.original_title}" class="img-thumbnail rounded">
-        <button type="button" class="collectionButton btn btn-success" movieId="${searchRecd.id}">Add to Favs</button>
+        <button type="button" class="collectionButton btn btn-success" data-toggle="modal" data-target="#fullHeightModalRight" movieId="${searchRecd.id}">Add to Favs</button>
       </div>
   ` });
   jQuery("#" + "searchSection").append(showMovieSearchPanelHtml);
@@ -56,6 +71,7 @@ function createMovieSearchPanel(resp){
 jQuery(document).ready(function(){
   eventListner();
   getTopMovie(1,createMovieList);
+  // getCollectionToFav();
 })
 
 // step 2 create movie list
@@ -67,7 +83,7 @@ function createMovieList(res){
       <div class="col-2 movieContainer" id= ${movieRecod.id}>
           <img src="https://image.tmdb.org/t/p/w300_and_h450_bestv2/${ movieRecod.poster_path}" alt="${movieRecod.original_title}" class="img-thumbnail rounded">
           <div class="buttom-panel text-center mt-1">
-            <button type="button" class="collectionButton btn btn-success" movieId="${movieRecod.id}" >Add this</button>
+            <button type="button" class="collectionButton btn btn-success" data-toggle="modal" data-target="#fullHeightModalRight" movieId="${movieRecod.id}" >Add this</button>
           </div>
       </div>
       `
@@ -76,55 +92,76 @@ function createMovieList(res){
   jQuery("#" + "topMoviesContainer").append(showTopMoviesHtml);
 }
 
-
-//CRUD operations using basic ajax and jquery 
-// function ajaxAddToFav(resfav){
-//     jQuery.ajax({
-//       type: "GET",
-//       data: "json" ,
-//       contentType : "application/json",
-//       url: 'http://localhost:3000/results',
-//       success: function(resfav){
-//           callback(resfav);
-//       },
-//   });
-// }
-
-
-// function ajaxDeleteFromFav(){
-//     jQuery.ajax({
-//       type: "DELETE",
-//       data: "json" ,
-//       contentType : "application/json",
-//       url: 'http://localhost:3000/results',
-//       success: function(resfav){
-//           callback(resfav);
-//       },
-//   });
-// }
-
 //Adding data to collection 
-function addCollection(data){
-    console.log("this is data!!!!!", data);
+function addCollection(movieIdVar,callback){
+    console.log("this is data!!!!!", movieIdVar);
+    // console.log("this is data!!!!!", JSON.stringify(res));
     jQuery.ajax({
-      type: "POST",
-      data: JSON.stringify(data),
-      contentType : "application/json",
-      url: 'http://localhost:3000/results',
-      success: function(resfav){
-        console.log(resfav);
-      },
-  });
+            type: "GET",
+            contentType : "application/json",
+            url: `https://api.themoviedb.org/3/movie/${movieIdVar}?api_key=7520477c96fad381a44633a2b7596a01&language=en-US`,
+            success: function(res){
+              //console.log("collection" +JSON.stringify(res));
+              callback(res);
+            },
+        });
 }
 
+function createCollection(res){
+  console.log("inside funtion" );
+  console.log(JSON.stringify(res.poster_path));
+  var showCollectionMoviesHtml = "";
+  showCollectionMoviesHtml += `
+    <div class="col-12" id= ${res.id}>
+        <img src="https://image.tmdb.org/t/p/w300_and_h450_bestv2/${res.poster_path}" alt="${res.original_title}">
+        <div class="buttom-panel text-center mt-1">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Want to add in</label>
+                <select class="form-control" id="exampleFormControlSelect1" >
+                  <option value="Favourates" id="Favourates">Favourates</option>
+                  <option value="Adventure" id="Adventure">Adventure</option>
+                  <option value="Fantasy" id="Fantasy">Fantasy</option>
+                  <option value="Sci-Fi" id="Sci-Fi">Sci-Fi</option>
+                  <option value="Action" id="Action">Action</option>
+                  <option value="Thriller" id="Thriller">Thriller</option>
+                </select>
+              </div>
+            <form>
+            <button type="button" class="insideCollectionButton btn btn-success" movieId="${res.id}">Done</button>
+        </div>
+    </div>
+    `
+    console.log("res 1" +showCollectionMoviesHtml);
+    document.getElementById('insideModalClass').innerHTML= showCollectionMoviesHtml;
+}
 
-//function for selecting the movie and getting the movie details
-// function movieSelected(id){
-//   sessionStorage.setItem('movieId',id);
-//   window.location = 'movie.html';
-//   return false;
+// function addCollectionToFavs(movieIdVar){
+//   
 // }
 
-// function getMovieDetail(){
-//   let movieId  = sessionStorage.getItem(movieId);
+
+// function getCollectionToFav(res){
+//   var showFavMoviesHtml;    
+//   jQuery.ajax({
+//         type: "GET",
+//         contentType : "application/json",
+//         url: `http://localhost:3000/value`,
+//         success: function(res){
+//           callback(res);
+//         },
+//     });
+
+//     res.map(favMovieRecod => {
+//       showFavMoviesHtml += `
+//       <div class="col-2 movieContainer" id= ${favMovieRecod.id}>
+//           <img src="https://image.tmdb.org/t/p/w300_and_h450_bestv2/${ favMovieRecod.poster_path}" alt="${favMovieRecod.original_title}" class="img-thumbnail rounded">
+//           <div class="buttom-panel text-center mt-1">
+//             <button type="button" class="collectionButton btn btn-success" data-toggle="modal" data-target="#fullHeightModalRight" movieId="${favMovieRecod.id}" >Add this</button>
+//           </div>
+//       </div>
+//       `
+//     });
+
+//     jQuery("#" + "favMovies").append(showFavMoviesHtml);
 // }
