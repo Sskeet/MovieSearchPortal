@@ -2,102 +2,6 @@
   "Action": [
     {
       "adult": false,
-      "backdrop_path": "/3P52oz9HPQWxcwHOwxtyrVV1LKi.jpg",
-      "belongs_to_collection": {
-        "id": 448150,
-        "name": "Deadpool Collection",
-        "poster_path": "/30c5jO7YEXuF8KiWXLg9m28GWDA.jpg",
-        "backdrop_path": "/hBQOWY8qWXJVFAc8yLTh1teIu43.jpg"
-      },
-      "budget": 110000000,
-      "genres": [
-        {
-          "id": 28,
-          "name": "Action"
-        },
-        {
-          "id": 35,
-          "name": "Comedy"
-        },
-        {
-          "id": 878,
-          "name": "Science Fiction"
-        }
-      ],
-      "homepage": "https://www.foxmovies.com/movies/deadpool-2",
-      "id": 383498,
-      "imdb_id": "tt5463162",
-      "original_language": "en",
-      "original_title": "Deadpool 2",
-      "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
-      "popularity": 68.837,
-      "poster_path": "/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
-      "production_companies": [
-        {
-          "id": 28788,
-          "logo_path": null,
-          "name": "Genre Films",
-          "origin_country": "US"
-        },
-        {
-          "id": 31076,
-          "logo_path": null,
-          "name": "Simon Kinberg Productions",
-          "origin_country": "US"
-        },
-        {
-          "id": 431,
-          "logo_path": null,
-          "name": "The Donners' Company",
-          "origin_country": "US"
-        },
-        {
-          "id": 104228,
-          "logo_path": null,
-          "name": "Maximum Effort",
-          "origin_country": "US"
-        },
-        {
-          "id": 7505,
-          "logo_path": "/837VMM4wOkODc1idNxGT0KQJlej.png",
-          "name": "Marvel Entertainment",
-          "origin_country": "US"
-        },
-        {
-          "id": 25,
-          "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
-          "name": "20th Century Fox",
-          "origin_country": "US"
-        }
-      ],
-      "production_countries": [
-        {
-          "iso_3166_1": "CA",
-          "name": "Canada"
-        },
-        {
-          "iso_3166_1": "US",
-          "name": "United States of America"
-        }
-      ],
-      "release_date": "2018-05-15",
-      "revenue": 692129923,
-      "runtime": 119,
-      "spoken_languages": [
-        {
-          "iso_639_1": "en",
-          "name": "English"
-        }
-      ],
-      "status": "Released",
-      "tagline": "Prepare for the Second Coming.",
-      "title": "Deadpool 2",
-      "video": false,
-      "vote_average": 7.6,
-      "vote_count": 3083
-    },
-    {
-      "adult": false,
       "backdrop_path": "/nEdBHjvRkKwEPD1Ps5A3rRiiLVN.jpg",
       "belongs_to_collection": {
         "id": 33514,
@@ -337,69 +241,90 @@
       "video": false,
       "vote_average": 8.2,
       "vote_count": 11538
-    }
-  ],
-  "Adventure": [
+    },
     {
       "adult": false,
-      "backdrop_path": "/bUcHY7CrYWieikW8fFkL3Dxnt4H.jpg",
-      "belongs_to_collection": null,
-      "budget": 21000000,
+      "backdrop_path": "/3P52oz9HPQWxcwHOwxtyrVV1LKi.jpg",
+      "belongs_to_collection": {
+        "id": 448150,
+        "name": "Deadpool Collection",
+        "poster_path": "/30c5jO7YEXuF8KiWXLg9m28GWDA.jpg",
+        "backdrop_path": "/hBQOWY8qWXJVFAc8yLTh1teIu43.jpg"
+      },
+      "budget": 110000000,
       "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
         {
           "id": 35,
           "name": "Comedy"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
         }
       ],
-      "homepage": "https://www.blockersmovie.com/",
-      "id": 437557,
-      "imdb_id": "tt2531344",
+      "homepage": "https://www.foxmovies.com/movies/deadpool-2",
+      "id": 383498,
+      "imdb_id": "tt5463162",
       "original_language": "en",
-      "original_title": "Blockers",
-      "overview": "When three parents discover their daughters’ pact to lose their virginity at prom, they launch a covert one-night operation to stop the teens from sealing the deal.",
-      "popularity": 31.071,
-      "poster_path": "/uvlUQXg0AlpGzKukO11K7QtW3Yu.jpg",
+      "original_title": "Deadpool 2",
+      "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
+      "popularity": 68.837,
+      "poster_path": "/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
       "production_companies": [
         {
-          "id": 101024,
+          "id": 28788,
           "logo_path": null,
-          "name": "Hurwitz & Schlossberg Productions",
+          "name": "Genre Films",
           "origin_country": "US"
         },
         {
-          "id": 17393,
-          "logo_path": "/k28sCof6kheeOicLqL6EXX2GHov.png",
-          "name": "Good Universe",
-          "origin_country": "US"
-        },
-        {
-          "id": 10289,
-          "logo_path": "/4lXJcFjACjb34LF78AUjEz4FtB9.png",
-          "name": "DMG Entertainment",
-          "origin_country": "US"
-        },
-        {
-          "id": 16615,
+          "id": 31076,
           "logo_path": null,
-          "name": "Point Grey Pictures",
+          "name": "Simon Kinberg Productions",
           "origin_country": "US"
         },
         {
-          "id": 33,
-          "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-          "name": "Universal Pictures",
+          "id": 431,
+          "logo_path": null,
+          "name": "The Donners' Company",
+          "origin_country": "US"
+        },
+        {
+          "id": 104228,
+          "logo_path": null,
+          "name": "Maximum Effort",
+          "origin_country": "US"
+        },
+        {
+          "id": 7505,
+          "logo_path": "/837VMM4wOkODc1idNxGT0KQJlej.png",
+          "name": "Marvel Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 25,
+          "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+          "name": "20th Century Fox",
           "origin_country": "US"
         }
       ],
       "production_countries": [
         {
+          "iso_3166_1": "CA",
+          "name": "Canada"
+        },
+        {
           "iso_3166_1": "US",
           "name": "United States of America"
         }
       ],
-      "release_date": "2018-03-14",
-      "revenue": 93155065,
-      "runtime": 102,
+      "release_date": "2018-05-15",
+      "revenue": 692129923,
+      "runtime": 119,
       "spoken_languages": [
         {
           "iso_639_1": "en",
@@ -407,13 +332,14 @@
         }
       ],
       "status": "Released",
-      "tagline": "Teens out to have fun. Parents out to stop it.",
-      "title": "Blockers",
+      "tagline": "Prepare for the Second Coming.",
+      "title": "Deadpool 2",
       "video": false,
-      "vote_average": 6.2,
-      "vote_count": 367
+      "vote_average": 7.6,
+      "vote_count": 3086
     }
   ],
+  "Adventure": [],
   "Animation": [],
   "Comedy": [],
   "Crime": [],
