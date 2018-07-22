@@ -1,17 +1,18 @@
 @import "~bootstrap/scss/bootstrap";
 
-
 // @import '../img/movieCollage1.jpg';
 html,  body  {
     height:  100%;
-    background:  #333 ; //url(./movieCollage1.jpg) no-repeat
+    background:  #333 ; //url(./movieCollage1.jpg)
     background-size:  cover;
+    //background-image: url(src/img/movieCollage2.jpg) no-repeat;
 }
 
 body  {
     color:  #fff;
     text-align:  center;
     text-shadow:  0 1px 3px rgba(0, 0, 0, .5);
+    // background-image: url(src/img/movieCollage1.jpg);
 }
 
 // /* Globals Links */ 
