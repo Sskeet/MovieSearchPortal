@@ -1,0 +1,577 @@
+{
+  "Action": [
+    {
+      "adult": false,
+      "backdrop_path": "/3P52oz9HPQWxcwHOwxtyrVV1LKi.jpg",
+      "belongs_to_collection": {
+        "id": 448150,
+        "name": "Deadpool Collection",
+        "poster_path": "/30c5jO7YEXuF8KiWXLg9m28GWDA.jpg",
+        "backdrop_path": "/hBQOWY8qWXJVFAc8yLTh1teIu43.jpg"
+      },
+      "budget": 110000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": "https://www.foxmovies.com/movies/deadpool-2",
+      "id": 383498,
+      "imdb_id": "tt5463162",
+      "original_language": "en",
+      "original_title": "Deadpool 2",
+      "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
+      "popularity": 68.837,
+      "poster_path": "/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
+      "production_companies": [
+        {
+          "id": 28788,
+          "logo_path": null,
+          "name": "Genre Films",
+          "origin_country": "US"
+        },
+        {
+          "id": 31076,
+          "logo_path": null,
+          "name": "Simon Kinberg Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 431,
+          "logo_path": null,
+          "name": "The Donners' Company",
+          "origin_country": "US"
+        },
+        {
+          "id": 104228,
+          "logo_path": null,
+          "name": "Maximum Effort",
+          "origin_country": "US"
+        },
+        {
+          "id": 7505,
+          "logo_path": "/837VMM4wOkODc1idNxGT0KQJlej.png",
+          "name": "Marvel Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 25,
+          "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+          "name": "20th Century Fox",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "CA",
+          "name": "Canada"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2018-05-15",
+      "revenue": 692129923,
+      "runtime": 119,
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Prepare for the Second Coming.",
+      "title": "Deadpool 2",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 3083
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nEdBHjvRkKwEPD1Ps5A3rRiiLVN.jpg",
+      "belongs_to_collection": {
+        "id": 33514,
+        "name": "The Twilight Collection",
+        "poster_path": "/2o4zgGjVryMOPdNqLZWsSPqRkOH.jpg",
+        "backdrop_path": "/rv5b06YAvmekw0D6Ul2ps9JbH4C.jpg"
+      },
+      "budget": 37000000,
+      "genres": [
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        }
+      ],
+      "homepage": "http://www.twilightthemovie.com",
+      "id": 8966,
+      "imdb_id": "tt1099212",
+      "original_language": "en",
+      "original_title": "Twilight",
+      "overview": "When Bella Swan moves to a small town in the Pacific Northwest to live with her father, she starts school and meets the reclusive Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire. Despite Edward's repeated cautions, Bella can't help but fall in love with him, a fatal move that endangers her own life when a coven of bloodsuckers try to challenge the Cullen clan.",
+      "popularity": 31.559,
+      "poster_path": "/lcMp3AONdNhjYE9MmTtMMTOiRDP.jpg",
+      "production_companies": [
+        {
+          "id": 57750,
+          "logo_path": null,
+          "name": "Twilight Productions",
+          "origin_country": ""
+        },
+        {
+          "id": 491,
+          "logo_path": "/rUp0lLKa1pr4UsPm8fgzmnNGxtq.png",
+          "name": "Summit Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 12292,
+          "logo_path": "/llGRXF5WYUW2fzXg0ebCoKMXjmT.png",
+          "name": "Temple Hill Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 4000,
+          "logo_path": null,
+          "name": "Maverick Films",
+          "origin_country": ""
+        },
+        {
+          "id": 5218,
+          "logo_path": null,
+          "name": "Imprint Entertainment",
+          "origin_country": ""
+        },
+        {
+          "id": 11843,
+          "logo_path": null,
+          "name": "Goldcrest Pictures",
+          "origin_country": ""
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2008-11-20",
+      "revenue": 392616625,
+      "runtime": 122,
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "When you can live forever, what do you live for?",
+      "title": "Twilight",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 5423
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aPndWixw0hlH1XAXcSSZxW5LF8m.jpg",
+      "belongs_to_collection": {
+        "id": 1241,
+        "name": "Harry Potter Collection",
+        "poster_path": "/eVPs2Y0LyvTLZn6AP5Z6O2rtiGB.jpg",
+        "backdrop_path": "/wfnMt6LGqYHcNyOfsuusw5lX3bL.jpg"
+      },
+      "budget": 125000000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        }
+      ],
+      "homepage": "http://harrypotter.warnerbros.com/harrypotterandthedeathlyhallows/mainsite/index.html",
+      "id": 671,
+      "imdb_id": "tt0241527",
+      "original_language": "en",
+      "original_title": "Harry Potter and the Philosopher's Stone",
+      "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard -- with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths -- and about the villain who's to blame.",
+      "popularity": 47.632,
+      "poster_path": "/dCtFvscYcXQKTNvyyaQr2g2UacJ.jpg",
+      "production_companies": [
+        {
+          "id": 174,
+          "logo_path": "/ky0xOc5OrhzkZ1N6KyUxacfQsCk.png",
+          "name": "Warner Bros. Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 437,
+          "logo_path": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+          "name": "Heyday Films",
+          "origin_country": "GB"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2001-11-16",
+      "revenue": 976475550,
+      "runtime": 152,
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Let the Magic Begin.",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 10250
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pIUvQ9Ed35wlWhY2oU6OmwEsmzG.jpg",
+      "belongs_to_collection": {
+        "id": 119,
+        "name": "The Lord of the Rings Collection",
+        "poster_path": "/p4UokEk2XnjjRTdXGe6DLYXlbI1.jpg",
+        "backdrop_path": "/bccR2CGTWVVSZAG0yqmy3DIvhTX.jpg"
+      },
+      "budget": 93000000,
+      "genres": [
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "homepage": "http://www.lordoftherings.net/",
+      "id": 120,
+      "imdb_id": "tt0120737",
+      "original_language": "en",
+      "original_title": "The Lord of the Rings: The Fellowship of the Ring",
+      "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+      "popularity": 39.939,
+      "poster_path": "/eDkDYEUIHEp5qavNa5k6XsMHgbf.jpg",
+      "production_companies": [
+        {
+          "id": 12,
+          "logo_path": "/iaYpEp3LQmb8AfAtmTvpqd4149c.png",
+          "name": "New Line Cinema",
+          "origin_country": "US"
+        },
+        {
+          "id": 11,
+          "logo_path": null,
+          "name": "WingNut Films",
+          "origin_country": "NZ"
+        },
+        {
+          "id": 5237,
+          "logo_path": null,
+          "name": "The Saul Zaentz Company",
+          "origin_country": ""
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "NZ",
+          "name": "New Zealand"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2001-12-18",
+      "revenue": 871368364,
+      "runtime": 178,
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "One ring to rule them all",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 11538
+    }
+  ],
+  "Adventure": [
+    {
+      "adult": false,
+      "backdrop_path": "/bUcHY7CrYWieikW8fFkL3Dxnt4H.jpg",
+      "belongs_to_collection": null,
+      "budget": 21000000,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "homepage": "https://www.blockersmovie.com/",
+      "id": 437557,
+      "imdb_id": "tt2531344",
+      "original_language": "en",
+      "original_title": "Blockers",
+      "overview": "When three parents discover their daughters’ pact to lose their virginity at prom, they launch a covert one-night operation to stop the teens from sealing the deal.",
+      "popularity": 31.071,
+      "poster_path": "/uvlUQXg0AlpGzKukO11K7QtW3Yu.jpg",
+      "production_companies": [
+        {
+          "id": 101024,
+          "logo_path": null,
+          "name": "Hurwitz & Schlossberg Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 17393,
+          "logo_path": "/k28sCof6kheeOicLqL6EXX2GHov.png",
+          "name": "Good Universe",
+          "origin_country": "US"
+        },
+        {
+          "id": 10289,
+          "logo_path": "/4lXJcFjACjb34LF78AUjEz4FtB9.png",
+          "name": "DMG Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 16615,
+          "logo_path": null,
+          "name": "Point Grey Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 33,
+          "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+          "name": "Universal Pictures",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2018-03-14",
+      "revenue": 93155065,
+      "runtime": 102,
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Teens out to have fun. Parents out to stop it.",
+      "title": "Blockers",
+      "video": false,
+      "vote_average": 6.2,
+      "vote_count": 367
+    }
+  ],
+  "Animation": [],
+  "Comedy": [],
+  "Crime": [],
+  "Documentary": [],
+  "Drama": [],
+  "Family": [],
+  "Fantasy": [
+    {
+      "adult": false,
+      "backdrop_path": "/h3t4zZPteUPqyDBrmz5Z2zzGM61.jpg",
+      "belongs_to_collection": {
+        "id": 185103,
+        "name": "Hotel Transylvania Collection",
+        "poster_path": "/lrss5CB6dgRMnBoTlqhWoRTYbiv.jpg",
+        "backdrop_path": "/arH2YrpG7EVMnA4JCtzAXt9wQQJ.jpg"
+      },
+      "budget": 80000000,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "homepage": null,
+      "id": 159824,
+      "imdb_id": "tt2510894",
+      "original_language": "en",
+      "original_title": "Hotel Transylvania 2",
+      "overview": "When the old-old-old-fashioned vampire Vlad arrives at the hotel for an impromptu family get-together, Hotel Transylvania is in for a collision of supernatural old-school and modern day cool.",
+      "popularity": 79.089,
+      "poster_path": "/5BGjNYVHWynVNIbo3eF6XhPeB1J.jpg",
+      "production_companies": [
+        {
+          "id": 34,
+          "logo_path": "/GagSvqWlyPdkFHMfQ3pNq6ix9P.png",
+          "name": "Sony Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 5,
+          "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+          "name": "Columbia Pictures",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2015-09-21",
+      "revenue": 473226958,
+      "runtime": 89,
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "They're back to raise a little terror",
+      "title": "Hotel Transylvania 2",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 2145
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6P3c80EOm7BodndGBUAJHHsHKrp.jpg",
+      "belongs_to_collection": {
+        "id": 422834,
+        "name": "Ant-Man Collection",
+        "poster_path": "/tdKbDECJQ3JmYaMubNaKFM1mgcY.jpg",
+        "backdrop_path": "/2KjtWUBiksmN8LsUouaZnxocu5N.jpg"
+      },
+      "budget": 140000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": null,
+      "id": 363088,
+      "imdb_id": "tt5095030",
+      "original_language": "en",
+      "original_title": "Ant-Man and the Wasp",
+      "overview": "As Scott Lang awaits expiration of his term of house detention, Hope van Dyne and Dr. Hank Pym involve him in a scheme to rescue Mrs. van Dyne from the micro-universe into which she has fallen, while two groups of schemers converge on them with intentions of stealing Dr. Pym's inventions.",
+      "popularity": 186.229,
+      "poster_path": "/rv1AWImgx386ULjcf62VYaW8zSt.jpg",
+      "production_companies": [
+        {
+          "id": 420,
+          "logo_path": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+          "name": "Marvel Studios",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2018-07-04",
+      "revenue": 303930000,
+      "runtime": 118,
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Real Heroes. Not Actual Size",
+      "title": "Ant-Man and the Wasp",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 663
+    }
+  ],
+  "History": [],
+  "Horror": [],
+  "Music": [],
+  "Mystery": [],
+  "Romance": [],
+  "Science Fiction": [],
+  "TV Movie": [],
+  "Thriller": [],
+  "War": [],
+  "Western": []
+}

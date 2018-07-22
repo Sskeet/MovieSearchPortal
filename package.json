@@ -1,0 +1,44 @@
+{
+  "name": "moviesearchportal",
+  "version": "1.0.0",
+  "description": "A portal for searching movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --host 0.0.0.0 --watch-poll "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sskeet/MovieSearchPortal.git"
+  },
+  "author": "Saket",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sskeet/MovieSearchPortal/issues"
+  },
+  "homepage": "https://github.com/Sskeet/MovieSearchPortal#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-install": "2.1.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "json-server": "^0.14.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.1",
+    "webpack-config": "^7.5.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "Babel": "0.0.1",
+    "bootstrap": "^4.1.2",
+    "popper.js": "^1.14.3",
+    "style": "0.0.3",
+    "webpack-cli": "^3.0.8"
+  }
+}
